@@ -1,0 +1,16 @@
+b0=mod(d,2);
+b1=mod(floor(d/2),2);
+b2=mod(floor(d/4),2);
+b3=mod(floor(d/8),2);
+b4=mod(floor(d/16),2);
+b5=mod(floor(d/32),2);
+b6=mod(floor(d/64),2);
+b7=mod(floor(d/128),2);
+figure,imshow(b0)
+figure,imshow(b1)
+figure,imshow(b2)
+figure,imshow(b3)
+figure,imshow(b4)
+figure,imshow(b5)
+figure,imshow(b6)
+figure,imshow(b7)

@@ -1,0 +1,11 @@
+a=imread('pout.tif');
+figure;
+subplot(1,2,1);imshow(a);
+subplot(1,2,2);imhist(a);
+b=imadjust(a,[0.3,0.6],[0.0,1.0]);
+c=histeq(a);
+figure;
+subplot(2,2,1);imshow(b);
+subplot(2,2,2);imhist(b);
+subplot(2,2,3);imshow(c);
+subplot(2,2,4);imhist(c);
